@@ -1,0 +1,9 @@
+project: savantenvs/rigs-of-rods
+target: fuzz_tuneup
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_tuneup/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_tuneup
+    libfuzzer: true
+    timeout: 5

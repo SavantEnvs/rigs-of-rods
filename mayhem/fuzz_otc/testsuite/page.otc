@@ -1,0 +1,4 @@
+island.raw
+2
+2048, grass_diffusespecular.dds, grass_normalheight.dds
+100, rock_diffusespecular.dds, rock_normalheight.dds, blend.png, R, 0.8

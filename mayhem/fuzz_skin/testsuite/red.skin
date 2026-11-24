@@ -1,0 +1,16 @@
+// skins
+Red paint
+{
+	description = Bright red
+	authorname = someone
+	authorid = 42
+	guid = 8f1ce4b0-2b1f-11e4-8c21-0800200c9a66
+	preview = red-mini.png
+	replacetexture = body.dds, body-red.dds
+	replacematerial = tracks/body, tracks/body-red
+	name = Red
+}
+Blue paint
+{
+	replacetexture = body.dds, body-blue.dds
+}

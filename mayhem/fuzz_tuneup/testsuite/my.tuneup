@@ -1,0 +1,20 @@
+// tuneup
+My tuneup
+{
+	preview = mini.png
+	description = test
+	author_name = someone
+	author_id = 42
+	category_id = 9000
+	guid = 8F1CE4B0-2B1F-11E4-8C21-0800200C9A66
+	name = My tuneup
+	filename = car.truck
+	use_addonpart = spoiler.addonpart
+	unwanted_prop = 3
+	unwanted_flexbody = 1
+	protected_prop = 2
+	protected_flexbody = 4
+	forced_wheel_side = 0, 1
+	force_remove_prop = 5
+	force_remove_flexbody = 6
+}

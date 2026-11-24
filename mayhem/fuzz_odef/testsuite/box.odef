@@ -1,0 +1,11 @@
+box.mesh
+1,1,1
+beginbox
+boxcoords -1, 1, 0, 2, -1, 1
+rotate 0, 90, 0
+virtual
+event shopboat avatar
+direction 0, 0, 0
+stdfriction concrete
+endbox
+end

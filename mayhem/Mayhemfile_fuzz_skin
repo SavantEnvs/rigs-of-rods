@@ -1,0 +1,9 @@
+project: savantenvs/rigs-of-rods
+target: fuzz_skin
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_skin/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_skin
+    libfuzzer: true
+    timeout: 5

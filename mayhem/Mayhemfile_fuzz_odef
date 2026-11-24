@@ -1,0 +1,9 @@
+project: savantenvs/rigs-of-rods
+target: fuzz_odef
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_odef/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_odef
+    libfuzzer: true
+    timeout: 5

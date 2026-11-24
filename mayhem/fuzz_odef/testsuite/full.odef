@@ -1,0 +1,21 @@
+house.mesh
+1, 1, 1
+beginmesh
+stdfriction concrete
+endmesh
+beginbox
+virtual
+boxcoords -1, 1, 0, 2, -1, 1
+rotate 0, 90, 0
+direction 0, 0, 1
+event shop avatarONLY
+camera 0, 1, 2
+endbox
+localizer-v 0 0 0 0 0 0
+sound tracks/default
+particleSystem smoke 0 1 0 tracks/smoke
+setMeshMaterial tracks/red
+generateMaterialShaders tracks/red
+spotlight 0 1 0 0 -1 0 1 1 1 10 30
+pointlight 0 1 0 0 0 0 1 1 1 10
+end

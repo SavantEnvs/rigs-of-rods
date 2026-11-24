@@ -1,0 +1,12 @@
+Example addonpart
+// comment
+[section]
+addonpart_name "Example"
+addonpart_guid "abc-def"
+set_managedmaterials_options 1
+managedmaterials
+mat1 flexmesh_standard tex.dds
+props
+1, 2, 3, 0, 0, 0, 0, 0, 0, seat.mesh
+key=value:(a b c)
+# hash comment

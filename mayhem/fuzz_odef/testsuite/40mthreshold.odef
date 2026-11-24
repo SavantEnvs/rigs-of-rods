@@ -1,0 +1,6 @@
+40mthreshold.mesh
+1,1,1
+beginmesh
+stdfriction asphalt
+endmesh
+end

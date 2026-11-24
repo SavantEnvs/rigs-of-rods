@@ -1,0 +1,13 @@
+// terrain objects
+grid 0 0 0
+trees 0, 360, 0.1, 0.2, 2, 60, 0, none, tree.mesh, none.png, collision-tree.mesh
+grass 200, 0.5, 0.5, 0.2, 0.2, 0.1, 0.3, 0.5, 1.2, 0, grass1, none.png, none.png
+grass2 0, 360, 0.1, 0.2, 2, 60, 0, none, none, none.png, none.png
+10.5, 2, -3, 0, 90, 0, bench
+1, 2, 3, 0, 0, 0, truck cart.truck
+5, 0, 5, 0, 0, 0, road
+begin_procedural_roads
+smoothing_num_splits 5
+1, 0, 1, 0, 0, 0, 10, 1, 0.1, flat
+2, 0, 2, 0, 45, 0, 10, 1, 0.1, both
+end_procedural_roads

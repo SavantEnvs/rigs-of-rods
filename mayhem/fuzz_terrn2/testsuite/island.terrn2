@@ -1,0 +1,28 @@
+[General]
+Name = Seed Island
+GeometryConfig = island.otc
+Water=1
+WaterLine = 12.5
+AmbientColor = 0.5, 0.5, 0.5
+StartPosition = 10.0, 1.0, 20.0
+StartRotation = 45
+CaelumConfigFile = island.os
+SandStormCubeMap = tracks/skycubemap
+Gravity = -9.81
+CategoryID = 129
+Version = 1
+GUID = 8f1ce4b0-2b1f-11e4-8c21-0800200c9a66
+TractionMap = landuse.cfg
+
+[Authors]
+terrain = someone
+
+[Objects]
+island.tobj=
+
+[Scripts]
+island.as=
+
+[Teleport]
+TeleportMapImage = map.png
+Telepoint0 = 1, 2, 3, Home
